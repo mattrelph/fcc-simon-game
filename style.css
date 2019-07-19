@@ -1,0 +1,82 @@
+body {
+  background-color: White;
+  margin-top: 15px;
+  font-family: "Courier", "monospace";
+  color: Black;
+  min-width: 650px;
+
+}
+
+footer {
+  margin-top: 65px;
+  background-color: Black;
+  color: White;
+  height: 50px;
+  width: 100%;
+}
+
+.square{
+	width: 150px;
+	height: 150px;
+	font-size: 50px;
+	display: inline-block;
+	border: 6px solid Black;
+	position: relative;
+	padding: 25px;
+}
+
+.controlButton{
+	margin: 5px;
+}
+
+#powerButton{
+	background-color: Black;
+	color: White;	
+}
+
+#strictButton{
+	background-color: Black;
+	color: White;	
+}
+
+#startButton{
+	background-color: Black;
+	color: White;	
+}
+
+#soundButton{
+	background-color: Purple;
+	color: White;	
+}
+
+#repeatButton{
+	background-color: Black;
+	color: White;	
+}
+#gameCounter{
+	background-color: Black;
+	color: White;
+	min-width: 100px;
+	min-height: 30px;
+	font-size: 20px;
+	margin: 5px;	
+}
+
+#greenSquare{
+	background-color: Green;
+}
+
+
+#redSquare{
+	background-color: Red;
+}
+
+
+#yellowSquare{
+	background-color: Orange;
+}
+
+
+#blueSquare{
+	background-color: Blue;
+}

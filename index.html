@@ -1,0 +1,45 @@
+<div  class="container-fluid text-center">
+	<div class="row">
+		<div class="col-xs-1 text-center"></div>
+		<div class="col-xs-1 text-center">
+			<button id="powerButton" onclick="powerToggle()" type="button" class="controlButton centerSpecial btn btn-lg">Power</button>
+			<br/>
+			<button id="startButton" onclick="initPlay()" type="button" class="controlButton centerSpecial btn btn-lg">Start</button>
+			<br/>
+			<button id="strictButton" onclick="strictToggle()" type="button" class="controlButton centerSpecial btn btn-lg">Strict</button>
+			<br/>
+			<button id="soundButton" onclick="soundToggle()" type="button" class="controlButton centerSpecial btn btn-lg">Sound</button>
+			<br/>
+			<button id="repeatButton" onclick="repeatToggle()" type="button" class="controlButton centerSpecial btn btn-lg">Repeat</button>
+			<br/>
+			<div id="gameCounter">00 / 00</div>
+		</div>
+		<div  class="col-xs-1 text-center"></div>
+		<div id="playarea" class="col-xs-8 text-center container-fluid">
+			<table>
+				<tr>
+					<td><div id="greenSquare" class="square col-xs-6"><i class="fa fa-circle-thin" aria-hidden="true"></i></div></td>
+					<td><div id="redSquare" class="square col-xs-6"><i class="fa fa-heart-o" aria-hidden="true"></i></div></td>
+				</tr>
+				<tr>
+					<td><div id="yellowSquare" class="square col-xs-6"><i class="fa fa-square-o" aria-hidden="true"></i></div></td>
+					<td><div id="blueSquare" class="square col-xs-6"><i class="fa fa-times" aria-hidden="true"></i></div></td>
+				</tr>					
+			</table>
+		
+		
+		</div>
+		<div class="col-xs-1 text-center"></div>
+	
+	</div>
+	<div class="row">
+			<div class="col-xs-3 text-center"></div>
+			<div class="col-xs-8 text-center"><span id="current" class="h3 text-left"></span></div>
+			<div class="col-xs-1 text-center"></div>
+		
+	</div>
+</div>
+
+<footer>
+  <p class="small text-center">Coded by Matthew Relph</p>
+</footer>	
